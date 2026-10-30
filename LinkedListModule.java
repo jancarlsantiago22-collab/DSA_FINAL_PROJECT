@@ -1,6 +1,6 @@
 public class LinkedListModule {
 
-    //SINGLY LINKED LIST
+    // ---------- SINGLY LINKED LIST ----------
     static class SinglyList {
         Node head = null;
 
@@ -75,7 +75,8 @@ public class LinkedListModule {
         }
     }
 
-    //DOUBLY LINKED LIST
+    // ---------- DOUBLY LINKED LIST ----------
+    static class DoublyList {
         DNode head = null;
         DNode tail = null;
 
@@ -161,7 +162,7 @@ public class LinkedListModule {
         }
     }
 
-    //CIRCULAR LINKED LIST (singly, tail pointer)
+    // ---------- CIRCULAR LINKED LIST (singly, tail pointer) ----------
     static class CircularList {
         Node tail = null; // tail.next ay ang head
 
@@ -248,7 +249,7 @@ public class LinkedListModule {
         }
     }
 
-    //MENU 
+    // ---------- MENU ----------
     public static void run() {
         System.out.println("\n--- LINKED LISTS ---");
         System.out.println("About: A linked list is a chain of nodes. Each node points to the next one.");
